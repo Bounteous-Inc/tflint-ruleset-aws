@@ -1,1 +1,3 @@
 tools/provider-schema/.terraform/
+cosign.pub
+dist
