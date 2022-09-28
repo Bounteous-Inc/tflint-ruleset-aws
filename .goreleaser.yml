@@ -24,8 +24,11 @@ checksum:
   name_template: 'checksums.txt'
 release:
   github:
-    owner: terraform-linters
+    owner: Bounteous-Inc
     name: tflint-ruleset-aws
-  draft: true
+  draft: false
 snapshot:
   name_template: "{{ .Tag }}-dev"
+signs:
+  - artifacts: checksum
+
