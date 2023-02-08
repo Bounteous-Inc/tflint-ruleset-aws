@@ -42,6 +42,6 @@ release:
   draft: false
 snapshot:
   name_template: "{{ .Tag }}-dev"
-signs:
-  - artifacts: checksum
+  #signs:
+  #- artifacts: checksum
 
