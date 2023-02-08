@@ -80,3 +80,9 @@ $ go run ./rules/generator
 ```
 
 Follow the instructions to edit the generated files and open a new pull request.
+
+
+Create a git tag `git tag v0.3` then run a release
+```
+goreleaser release --rm-dist
+```
